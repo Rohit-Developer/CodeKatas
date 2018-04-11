@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GildedRose.Tests", "src\GildedRose.Tests\GildedRose.Tests.csproj", "{CD4715A2-532E-4C74-BC40-36EE64F61FCA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{21A00AD6-7CA9-4991-98A7-0E9BD6BDFF32}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E9B2B641-EF32-484B-8255-AA7AE68231D5}"
+	ProjectSection(SolutionItems) = preProject
+		MIT-LICENSE.txt = MIT-LICENSE.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".build", ".build", "{B8B88B1C-EDE3-463E-AE8D-21A915B514F5}"
+	ProjectSection(SolutionItems) = preProject
+		build.bat = build.bat
+		tasks.ps1 = tasks.ps1
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GildedRose.Console", "src\GildedRose.Console\GildedRose.Console.csproj", "{F2E879A9-7F1C-4C34-AB0D-2662F9815046}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GildedRose.Console.Tests", "src\GildedRose.Console.Tests\GildedRose.Console.Tests.csproj", "{2E753DCC-E9E5-40A5-B71F-15AB007F32E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GildedRose.ConsoleTests", "src\GildedRose.ConsoleTests\GildedRose.ConsoleTests.csproj", "{EF615BCC-5B18-448E-A9E2-C71D59220ABB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD4715A2-532E-4C74-BC40-36EE64F61FCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD4715A2-532E-4C74-BC40-36EE64F61FCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD4715A2-532E-4C74-BC40-36EE64F61FCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD4715A2-532E-4C74-BC40-36EE64F61FCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2E879A9-7F1C-4C34-AB0D-2662F9815046}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2E879A9-7F1C-4C34-AB0D-2662F9815046}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2E879A9-7F1C-4C34-AB0D-2662F9815046}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2E879A9-7F1C-4C34-AB0D-2662F9815046}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E753DCC-E9E5-40A5-B71F-15AB007F32E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E753DCC-E9E5-40A5-B71F-15AB007F32E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E753DCC-E9E5-40A5-B71F-15AB007F32E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E753DCC-E9E5-40A5-B71F-15AB007F32E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF615BCC-5B18-448E-A9E2-C71D59220ABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF615BCC-5B18-448E-A9E2-C71D59220ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF615BCC-5B18-448E-A9E2-C71D59220ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF615BCC-5B18-448E-A9E2-C71D59220ABB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73CC0A51-E95D-4D33-A9C4-FBE2CFE2B331}
+	EndGlobalSection
+EndGlobal
